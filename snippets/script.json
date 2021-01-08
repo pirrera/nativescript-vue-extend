@@ -2,7 +2,7 @@
   "{NSVue} app import": {
     "prefix": "nsapp",
     "body": [
-      "import * as app from 'tns-core-modules/application';",
+      "import * as app from '@nativescript/core/application';",
       "$0"
     ],
     "description": "🔩 Code Snippets\n\nisIOS import sentence\n\n"
@@ -23,7 +23,7 @@
   "{NSVue} HTTP fetch": {
     "prefix": "nsfetch",
     "body": [
-      "import { fetch } from 'tns-core-modules/fetch';",
+      "import { fetch } from '@nativescript/core/fetch';",
       "fetch('$1')",
       "  .then((response) => {",
       "  })",
@@ -36,7 +36,7 @@
   "{NSVue} isAndroid import": {
     "prefix": "nsisandroid",
     "body": [
-      "import { isAndroid } from 'tns-core-modules/platform';",
+      "import { isAndroid } from '@nativescript/core/platform';",
       "$0"
     ],
     "description": "🔩 Code Snippets\n\nisAndroid import sentence\n\n"
@@ -44,7 +44,7 @@
   "{NSVue} isIOS import": {
     "prefix": "nsisios",
     "body": [
-      "import { isIOS } from 'tns-core-modules/platform';",
+      "import { isIOS } from '@nativescript/core/platform';",
       "$0"
     ],
     "description": "🔩 Code Snippets\n\nisIOS import sentence\n\n"
@@ -52,7 +52,7 @@
   "{NSVue} launchEvent": {
     "prefix": "nslaunchevent",
     "body": [
-      "import * as app from 'tns-core-modules/application';",
+      "import * as app from '@nativescript/core/application';",
       "",
       "app.on(app.launchEvent, ({ android, ios }) => {",
       "  if (android) {",
@@ -84,7 +84,7 @@
   "{NSVue} http module import": {
     "prefix": "nshttp",
     "body": [
-      "import * as http from 'tns-core-modules/http';",
+      "import * as http from '@nativescript/core/http';",
       "$0"
     ],
     "description": "🔩 Code Snippets\n\nImport the {NSVue} http module\n\n"
@@ -92,7 +92,7 @@
   "{NSVue} navigate back": {
     "prefix": "nsnavigateback",
     "body": [
-      "import * as frameModule from 'tns-core-modules/ui/frame';",
+      "import * as frameModule from '@nativescript/core/ui/frame';",
       "frameModule.topmost().goBack();",
       "$0"
     ],
